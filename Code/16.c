@@ -53,35 +53,35 @@ int main() {
     frequencyAttack(ciphertext, 10);
     return 0;
 }
-Output:
-Top 10 possible plaintexts:
-1. Key: XYZABCDEFGHIJKLMNOPQRSTUVWa
-   Plaintext: THIS IS AN ONLY MODE.
-   Chi-Square: 0.6451
-2. Key: LMNOPQRSTUVWXYZABCDEFGHIJKa
-   Plaintext: HVWG WG OB CBZM ACRS.
-   Chi-Square: 3.0234
-3. Key: EFGHIJKLMNOPQRSTUVWXYZABCDa
-   Plaintext: AOPZ PZ HU VUSF TVKL.
-   Chi-Square: 3.2706
-4. Key: WXYZABCDEFGHIJKLMNOPQRSTUVa
-   Plaintext: SGHR HR ZM NMKX LNCD.
-   Chi-Square: 4.2176
-5. Key: DEFGHIJKLMNOPQRSTUVWXYZABCa
-   Plaintext: ZNOY OY GT UTRE SUJK.
-   Chi-Square: 4.3316
-6. Key: RSTUVWXYZABCDEFGHIJKLMNOPQa
-   Plaintext: NBCM CM UH IHFS GIXY.
-   Chi-Square: 4.3853
-7. Key: QRSTUVWXYZABCDEFGHIJKLMNOPa
-   Plaintext: MABL BL TG HGER FHWX.
-   Chi-Square: 4.7609
-8. Key: IJKLMNOPQRSTUVWXYZABCDEFGHa
-   Plaintext: ESTD TD LY ZYWJ XZOP.
-   Chi-Square: 6.3476
-9. Key: KLMNOPQRSTUVWXYZABCDEFGHIJa
-   Plaintext: GUVF VF NA BAYL ZBQR.
-   Chi-Square: 7.5272
-10. Key: PQRSTUVWXYZABCDEFGHIJKLMNOa
-   Plaintext: LZAK AK SF GFDQ EGVW.
-   Chi-Square: 7.7744
+// Output:
+// Top 10 possible plaintexts:
+// 1. Key: XYZABCDEFGHIJKLMNOPQRSTUVWa
+//    Plaintext: THIS IS AN ONLY MODE.
+//    Chi-Square: 0.6451
+// 2. Key: LMNOPQRSTUVWXYZABCDEFGHIJKa
+//    Plaintext: HVWG WG OB CBZM ACRS.
+//    Chi-Square: 3.0234
+// 3. Key: EFGHIJKLMNOPQRSTUVWXYZABCDa
+//    Plaintext: AOPZ PZ HU VUSF TVKL.
+//    Chi-Square: 3.2706
+// 4. Key: WXYZABCDEFGHIJKLMNOPQRSTUVa
+//    Plaintext: SGHR HR ZM NMKX LNCD.
+//    Chi-Square: 4.2176
+// 5. Key: DEFGHIJKLMNOPQRSTUVWXYZABCa
+//    Plaintext: ZNOY OY GT UTRE SUJK.
+//    Chi-Square: 4.3316
+// 6. Key: RSTUVWXYZABCDEFGHIJKLMNOPQa
+//    Plaintext: NBCM CM UH IHFS GIXY.
+//    Chi-Square: 4.3853
+// 7. Key: QRSTUVWXYZABCDEFGHIJKLMNOPa
+//    Plaintext: MABL BL TG HGER FHWX.
+//    Chi-Square: 4.7609
+// 8. Key: IJKLMNOPQRSTUVWXYZABCDEFGHa
+//    Plaintext: ESTD TD LY ZYWJ XZOP.
+//    Chi-Square: 6.3476
+// 9. Key: KLMNOPQRSTUVWXYZABCDEFGHIJa
+//    Plaintext: GUVF VF NA BAYL ZBQR.
+//    Chi-Square: 7.5272
+// 10. Key: PQRSTUVWXYZABCDEFGHIJKLMNOa
+//    Plaintext: LZAK AK SF GFDQ EGVW.
+//    Chi-Square: 7.7744

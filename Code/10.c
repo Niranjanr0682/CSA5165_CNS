@@ -1,3 +1,11 @@
+// Write a C program for Playfair matrix:
+// MFHVJK
+// UNOPQ
+// ZVWXY
+// ELARG
+// DSTBC
+// Encrypt this message: Must see you over Cadogan West. Coming at once.
+
 #include <stdio.h>
 #include <string.h>
 

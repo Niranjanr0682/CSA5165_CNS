@@ -1,7 +1,15 @@
+// Write a C program for PT-109 American patrol boat. under the command of Lieutenant 
+// John F. Kennedy, was sunk by a Japanese destroyer, a message was received at an 
+// Australian wireless station in
+// Playfair code:
+// KXJEY VREBE ZWEHE WRYTU HEYFS
+// KREHE GOYFI WTTTU OLKSY CAJPO
+// BOTEI ZONTX BYBNT GONEY CUZWR
+// GDSON SXBOU YWRHE BAAHY USEDQ
 #include <stdio.h>
 #include <string.h>
 #define KEY_SIZE 5
-void decodePlayfair(const char *code) {
+void decodePlayfair(const char *code) { 
     char key[KEY_SIZE][KEY_SIZE] = {
         {'K', 'X', 'J', 'E', 'Y'},
         {'U', 'R', 'B', 'E', 'Z'},

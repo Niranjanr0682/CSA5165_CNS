@@ -26,7 +26,7 @@ int main() {
     printf("\nCiphertext: %s\n", ciphertext);
     return 0;
 }
-Output:
-Plaintext: Hello, World!
-Key: 10 24 10 6 8 8 1 18 19 18 5 12 23
-Ciphertext: Rcvrw, Ohjqp!
+// Output:
+// Plaintext: Hello, World!
+// Key: 10 24 10 6 8 8 1 18 19 18 5 12 23
+// Ciphertext: Rcvrw, Ohjqp!

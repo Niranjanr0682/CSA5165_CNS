@@ -1,3 +1,10 @@
+// Write a C program for monoalphabetic cipher is that both sender and receiver must 
+// commit the permuted cipher sequence to memory, A common technique for avoiding this 
+// is to use a keyvvord from which the cipher sequence can be generated. For example. 
+// using the keyword CIPHER. write out the keyvvord followed by unused letters in normal
+// order and match this against the plaintext letters:
+// plain: a bc d e fg h i jk I m no p qrs t u v w xyz
+// cipher: C IP HE RA B D F G J K L MN 00 S T U V W X Y Z
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
